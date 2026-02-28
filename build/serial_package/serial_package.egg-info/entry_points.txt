@@ -1,0 +1,3 @@
+[console_scripts]
+rgb_serial_subscriber = serial_package.rgb_serial_subscriber:main
+rgb_sine_publisher = serial_package.rgb_sine_publisher:main

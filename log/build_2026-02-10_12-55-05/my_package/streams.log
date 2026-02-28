@@ -1,0 +1,52 @@
+[0.475s] Invoking command in '/home/meng/ros2_ws/src/my_package': PYTHONPATH=/home/meng/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/meng/ros2_ws/build/my_package/build install --record /home/meng/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.619s] creating ../../build/my_package/my_package.egg-info
+[0.619s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.619s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.620s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.620s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.620s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.651s] [2;36m[02/10/26 12:55:06][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there   ]8;id=119906;file:///home/meng/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=534162;file:///home/meng/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[0.651s] [2;36m                    [0m         aren't any                                    [2m         [0m
+[0.652s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.652s] adding license file 'LICENSE'
+[0.653s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.653s] running build
+[0.653s] running build_py
+[0.653s] creating /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/my_node.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/novel_sub_node.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/writer_node.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/novel_pub_node.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/xiaoshuo_node.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] copying my_package/__init__.py -> /home/meng/ros2_ws/build/my_package/build/lib/my_package
+[0.653s] running install
+[0.655s] running install_lib
+[0.663s] creating /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/novel_sub_node.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/writer_node.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/novel_pub_node.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/xiaoshuo_node.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] copying /home/meng/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.663s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[0.663s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[0.663s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/writer_node.py to writer_node.cpython-310.pyc
+[0.664s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.664s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/xiaoshuo_node.py to xiaoshuo_node.cpython-310.pyc
+[0.664s] byte-compiling /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.664s] running install_data
+[0.664s] creating /home/meng/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.664s] copying resource/my_package -> /home/meng/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.664s] copying package.xml -> /home/meng/ros2_ws/install/my_package/share/my_package
+[0.665s] running install_egg_info
+[0.671s] Copying ../../build/my_package/my_package.egg-info to /home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.690s] Installing my_node script to /home/meng/ros2_ws/install/my_package/lib/my_package
+[0.690s] Installing novel_publisher script to /home/meng/ros2_ws/install/my_package/lib/my_package
+[0.690s] Installing novel_subscriber script to /home/meng/ros2_ws/install/my_package/lib/my_package
+[0.690s] Installing writer_node script to /home/meng/ros2_ws/install/my_package/lib/my_package
+[0.690s] Installing xiaoshuo_node script to /home/meng/ros2_ws/install/my_package/lib/my_package
+[0.690s] writing list of installed files to '/home/meng/ros2_ws/build/my_package/install.log'
+[0.710s] Invoked command in '/home/meng/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/meng/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meng/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/meng/ros2_ws/build/my_package/build install --record /home/meng/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data

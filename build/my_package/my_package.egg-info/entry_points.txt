@@ -1,0 +1,6 @@
+[console_scripts]
+my_node = my_package.my_node:main
+novel_publisher = my_package.novel_pub_node:main
+novel_subscriber = my_package.novel_sub_node:main
+writer_node = my_package.writer_node:main
+xiaoshuo_node = my_package.xiaoshuo_node:main

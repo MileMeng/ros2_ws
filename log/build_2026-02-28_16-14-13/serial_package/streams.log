@@ -1,0 +1,32 @@
+[0.507s] Invoking command in '/home/meng/ros2_ws/src/serial_package': PYTHONPATH=/home/meng/ros2_ws/build/serial_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_package build --build-base /home/meng/ros2_ws/build/serial_package/build install --record /home/meng/ros2_ws/build/serial_package/install.log --single-version-externally-managed install_data
+[0.643s] running egg_info
+[0.649s] writing ../../build/serial_package/serial_package.egg-info/PKG-INFO
+[0.650s] writing dependency_links to ../../build/serial_package/serial_package.egg-info/dependency_links.txt
+[0.650s] writing entry points to ../../build/serial_package/serial_package.egg-info/entry_points.txt
+[0.650s] writing requirements to ../../build/serial_package/serial_package.egg-info/requires.txt
+[0.650s] writing top-level names to ../../build/serial_package/serial_package.egg-info/top_level.txt
+[0.682s] [2;36m[02/28/26 16:14:13][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there   ]8;id=395529;file:///home/meng/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=546142;file:///home/meng/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[0.682s] [2;36m                    [0m         aren't any                                    [2m         [0m
+[0.683s] reading manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'
+[0.684s] adding license file 'LICENSE'
+[0.685s] writing manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] copying serial_package/rgb_sine_publisher.py -> /home/meng/ros2_ws/build/serial_package/build/lib/serial_package
+[0.685s] copying serial_package/rgb_serial_subscriber.py -> /home/meng/ros2_ws/build/serial_package/build/lib/serial_package
+[0.685s] copying serial_package/__init__.py -> /home/meng/ros2_ws/build/serial_package/build/lib/serial_package
+[0.685s] running install
+[0.686s] running install_lib
+[0.694s] copying /home/meng/ros2_ws/build/serial_package/build/lib/serial_package/rgb_sine_publisher.py -> /home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages/serial_package
+[0.694s] byte-compiling /home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages/serial_package/rgb_sine_publisher.py to rgb_sine_publisher.cpython-310.pyc
+[0.694s] running install_data
+[0.694s] copying resource/serial_package -> /home/meng/ros2_ws/install/serial_package/share/ament_index/resource_index/packages
+[0.694s] copying package.xml -> /home/meng/ros2_ws/install/serial_package/share/serial_package
+[0.694s] running install_egg_info
+[0.701s] removing '/home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages/serial_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../../build/serial_package/serial_package.egg-info to /home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages/serial_package-0.0.0-py3.10.egg-info
+[0.703s] running install_scripts
+[0.723s] Installing rgb_serial_subscriber script to /home/meng/ros2_ws/install/serial_package/lib/serial_package
+[0.723s] Installing rgb_sine_publisher script to /home/meng/ros2_ws/install/serial_package/lib/serial_package
+[0.724s] writing list of installed files to '/home/meng/ros2_ws/build/serial_package/install.log'
+[0.742s] Invoked command in '/home/meng/ros2_ws/src/serial_package' returned '0': PYTHONPATH=/home/meng/ros2_ws/build/serial_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meng/ros2_ws/install/serial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_package build --build-base /home/meng/ros2_ws/build/serial_package/build install --record /home/meng/ros2_ws/build/serial_package/install.log --single-version-externally-managed install_data
