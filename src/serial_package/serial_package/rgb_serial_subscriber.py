@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String  # 修改此处
+from std_msgs.msg import Int32MultiArray
 import serial
 import threading
 import queue
