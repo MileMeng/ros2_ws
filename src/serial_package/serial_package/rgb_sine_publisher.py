@@ -11,7 +11,7 @@ class RGBSinePublisher(Node):
         self.get_logger().info(f'{node_name} 启动！')
         self.publisher_ = self.create_publisher(Int32MultiArray, 'rgb_wave', 10)
         self.start_time = time.time()
-        self.timer = self.create_timer(0.1, self.timer_callback)  # 10 Hz
+        self.timer = self.create_timer(0.01, self.timer_callback)  # 10 Hz
 
     def timer_callback(self):
         t = time.time() - self.start_time
